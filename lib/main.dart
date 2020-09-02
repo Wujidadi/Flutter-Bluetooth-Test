@@ -13,6 +13,7 @@ class FlutterBlueApp extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
         return MaterialApp (
+            debugShowCheckedModeBanner: false,
             color: Colors.lightBlue,
             home: StreamBuilder<BluetoothState>(
                 stream: FlutterBlue.instance.state,
