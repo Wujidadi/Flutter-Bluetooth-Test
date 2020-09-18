@@ -1,4 +1,4 @@
-package com.example.bletest
+package com.example.ble_test
 
 import io.flutter.embedding.android.FlutterActivity
 
